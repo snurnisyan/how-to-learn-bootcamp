@@ -7,7 +7,6 @@
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', 'Arial', sans-serif;
-
 }
 
 @keyframes rotate {
@@ -160,7 +159,7 @@
 }
 
 .cards__item {
-  width: 240px; /* надо исправить */
+  width: 240px;
   margin-top: 60px;
 }
 
@@ -203,6 +202,7 @@
 }
 
 .video__iframe {
+  border: 0;
 }
 
 .oakley {
@@ -248,6 +248,8 @@
 
 .table__cell_theme_dark {
   color: white;
+  width: 200px;
+  padding-top: 80px;
 }
 
 .table {
@@ -341,6 +343,7 @@
   background-color: #f2f2f2;
   padding-top: 105px;
 }
+
 .khan__container {
   width: 80%;
   margin: auto;
@@ -429,11 +432,6 @@
   top: 0;
 }
 
-.table__cell_theme_dark {
-  width: 200px;
-  padding-top: 80px;
-}
-
 .resources {
   margin: 100px auto 217px auto;
   display: flex;
@@ -515,14 +513,6 @@
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
-}
-
-.footer__column_content_info {
-
-}
-
-.footer__column_content_social {
-
 }
 
 .footer__column-heading {
