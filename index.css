@@ -1,3 +1,6 @@
+/* Подключаем стили для анимации rotation */
+@import url('blocks/rotation/rotation.css');
+
 /* Подключаем общие стили для всей страницы */
 @import url('blocks/page (root)/page.css');
 
@@ -93,6 +96,3 @@
 @import url('blocks/footer/__column-links/footer__column-links.css');
 @import url('blocks/footer/__column-link/footer__column-link.css');
 @import url('blocks/footer/__social-icon/footer__social-icon.css');
-
-/* Подключаем стили для анимации rotation */
-@import url('blocks/rotation/rotation.css');
