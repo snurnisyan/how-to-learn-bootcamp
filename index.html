@@ -3,8 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="vendor/normalize.css">
-  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="pages/index.css">
   <title>Научиться учиться</title>
 </head>
 <body class="body">
@@ -61,12 +60,10 @@
       <section class="video">
         <h2 class="section-title">Видео на TED</h2>
         <p class="section-subtitle">Для тех, кто любит прокрастинировать</p>
-        <div class="video__iframes">
-          <iframe class="video__iframe" id="ytvideo1" width="515" height="316"
-                    src="https://www.youtube.com/embed/arj7oStGLkU" allowfullscreen></iframe>
-          <iframe class="video__iframe" id="ytvideo2" width="515" height="316"
-                    src="https://www.youtube.com/embed/5MgBikgcWnY" allowfullscreen></iframe>
-        </div>
+        <ul class="video__iframes">
+          <li><iframe class="video__iframe" id="ytvideo1" src="https://www.youtube.com/embed/arj7oStGLkU" allowfullscreen></iframe></li>
+          <li><iframe class="video__iframe" id="ytvideo2" src="https://www.youtube.com/embed/5MgBikgcWnY" allowfullscreen></iframe></li>
+        </ul>
       </section>
       <section class="oakley">
         <article class="two-columns" aria-label="История Барбары Оакли">
@@ -81,7 +78,6 @@
         <h2 class="feynman__title">Метод Фейнмана</h2>
         <p class="feynman__subtitle">Выучить и не забыть.</p>
         <a href="#" class="feynman__link" target="_blank">Подробнее →</a>
-        <img src="images/feynman.png" class="feynman__image" alt="Фото Фейнмана">
       </section>
       <section class="digits">
         <h2 class="section-title">Цифры и факты</h2>
@@ -128,10 +124,10 @@
           <p class="khan__author">Салман Хан</p>
           <h2 class="khan__title">Весь мир — школа</h2>
           <blockquote class="khan__quote">Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по всему миру. Книгу «Весь мир — школа» нужно прочитать всем, кто занимается образованием — так учащиеся повсюду смогут получить навыки и знания, которые приносят успех в школе, карьере и жизни.</blockquote>
-          <p class="khan__quote-author">Джордж Лукас</p>
-          <p class="khan__qoute-author-subline">Кинорежиссер, продюсер</p>
+          <h3 class="khan__quote-author">Джордж Лукас</h3>
+          <p class="khan__quote-author-subline">Кинорежиссер, продюсер</p>
           <div class="khan__book-container">
-            <div class="khan__book-pic"></div>
+            <img src="images/khan-book.jpg" class="khan__book-pic" alt="Изображение книги С. Хана">
             <a href="#" class="khan__buy-link" target="_blank">Купить книгу →</a>
           </div>
         </div>
@@ -186,20 +182,20 @@
       <section class="resources">
         <h2 class="section-title">Полезные ресурсы</h2>
         <p class="section-subtitle">Больше материалов о техниках и лайфхаках обучения</p>
-        <div class="resources__logo-zone">
-            <a href="#" class="resources__link" target="_blank">
-              <img src="images/logo/resources-arzamas.svg" class="resources__logo" alt="Ресурс Арзамас">
-            </a>
-          <a href="#" class="resources__link" target="_blank">
+        <ul class="resources__logo-zone">
+          <li><a href="#" class="resources__link" target="_blank">
+            <img src="images/logo/resources-arzamas.svg" class="resources__logo" alt="Ресурс Арзамас">
+          </a></li>
+          <li><a href="#" class="resources__link" target="_blank">
             <img src="images/logo/resources-n1.svg" class="resources__logo" alt="Ресурс Н+1">
-          </a>
-          <a href="#" class="resources__link" target="_blank">
+          </a></li>
+          <li><a href="#" class="resources__link" target="_blank">
             <img src="images/logo/resources-strelka.svg" class="resources__logo" alt="Ресурс Стрелка">
-          </a>
-          <a href="#" class="resources__link" target="_blank">
+          </a></li>
+          <li><a href="#" class="resources__link" target="_blank">
             <img src="images/logo/resources-polka.svg" class="resources__logo" alt="Ресурс Полка">
-          </a>
-        </div>
+          </a></li>
+        </ul>
       </section>
     </main>
     <footer class="footer">
