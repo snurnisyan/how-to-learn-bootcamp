@@ -6,6 +6,9 @@
 
 Проект можно посмотреть по **<a href="https://snurnisyan.github.io/how-to-learn-bootcamp/">ссылке</a>**.
 
+![learn](https://github.com/snurnisyan/how-to-learn-bootcamp/assets/127420427/4130de18-9fe6-4dcc-b2c7-e76231db2d52)
+
+
 ------
 
 <h3 align="center">Основные технологии проекта</h3>
